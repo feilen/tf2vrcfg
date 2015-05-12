@@ -29,11 +29,6 @@ mat_postprocess_y 1
 mat_reducefillrate 0
 mat_reduceparticles 0
 mat_shadowstate 1
-mat_software_aa_blur_one_pixel_lines 0
-mat_software_aa_edge_threshold 1
-mat_software_aa_quality 0
-mat_software_aa_strength 0
-mat_software_aa_strength_vgui 1
 mat_specular 1
 mat_trilinear 0
 mat_viewportscale 1

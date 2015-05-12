@@ -34,7 +34,7 @@ for file in $@; do
 		echo "alias config_${file} \"${LINEARR[0]}; config_${file}_1\""
 		for i in $(seq 1 $(( ${#LINEARR[@]} - 1)) ); do
 			if [ $i -eq $(( ${#LINEARR[@]} - 1)) ]; then
-				echo "alias config_${file}_${i} \"${LINEARR[$i]}\""
+				echo "alias config_${file}_${i} \"${LINEARR[$i]}; echo ${file} config loaded.\""
 			else
 				echo "alias config_${file}_${i} \"${LINEARR[$i]}; config_${file}_$(( $i + 1))\""
 			fi
